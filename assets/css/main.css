@@ -11092,6 +11092,14 @@ pre {
   min-height: 140px;
 }
 
+.desktop-hide {
+  visibility: hidden;
+}
+
+.desktop-none {
+  display: none;
+}
+
 @media (max-width: 1199.98px) {
   .custom-navbar {
     min-height: auto !important;
@@ -11193,8 +11201,21 @@ pre {
     padding: 0;
     overflow-x: hidden;
   }
+
   #about {
     padding: 1rem;
+    visibility: hidden;
+  }
+  #gallary, #map, .mobile-hide{
+    visibility: hidden;
+  }
+
+  .mobile-none {
+    display: none;
+  }
+
+  .desktop-hide {
+    visibility: visible;
   }
 }
 
